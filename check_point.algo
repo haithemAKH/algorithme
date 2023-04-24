@@ -1,0 +1,25 @@
+/*supposons ça est une phrase ou un texte :vsjghxa yigdajbd lihdo&hdu hdazuhd badiug iuhdiazb jbidua.
+donc ce que je doit faire c'est de compter le nombre d'espace entre les mots jusqu'à arriver au point "."*/
+ALGORITHM algorithm_name
+VAR
+  T:STRING/*T represente texte*/
+  C:CHAR/*C represente un carractere*/
+  nbrm:INTEGER=1/*nombre de mots*/
+  nbrv:INTEGER=0/*nombre de voyelles*/
+BEGIN
+     whrite (ecrire un texte)
+     IF(T=" ") THEN
+      nbrm=nbrm+1
+      whrite(nbrm)
+     ELSE
+      T="." 
+      whrite(fin du texte)
+     END_IF
+     IF (C=A,E,I,O,U,Y,a,e,i,o,u,y) THEN
+      nbrv=nbrv+1
+      whrite(nbrv)
+     ELSE
+      c="."
+      whrite(fin du texte)
+     END_IF
+END
